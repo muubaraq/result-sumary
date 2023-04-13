@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main class="w-full">
+        <div class="sm:min-h-screen flex flex-col sm:flex-row items-center justify-center mx-auto sm:w-3/6 sm:h-1/2 w-9/12 ">
+            <div class="left bg-blue-600 rounded-xl text-center p-6 flex-1 sm:p-8">
+                <h3 class="text-slate-300 font-bold">Your Result</h3>
+
+                <div class="percentage py-4 mx-auto relative w-28 h-28 bg-blue-700 rounded-full mt-3">
+                    <p class=""><span class="text-6xl font-bold text-white">76</span><br> <span class="text-slate-300 text-xs">of 100</span></p>
+                </div>
+                <h3 class="font-bold text-white text-2xl my-3">Great</h3>
+                <p class="text-center mx-auto text-slate-300 mb-2 text-sm font-bold">You Score higher than 65% of the people who have taken these tests.</p>
+            </div>
+
+            <div class="right rounded-xl bg-slate-50 shadow-md font-bold text-blue-950 p-5 flex-1 w-full text-center">
+                <h3 class="text-start">Summary</h3>
+                <div class="sumary-div my-3 ">
+                    <div class="reaction flex justify-between bg-red-300 rounded p-2">
+                        <div class="reaction-img flex items-center">
+                            <img src="./assets/images/icon-reaction.svg">
+                            <p class="ms-1 text-red-400">Reaction</p>
+                        </div>
+                        <div class="reaction-numbers">
+                            <p>80 <span class="">/100</span></p>
+                        </div>
+                    </div> 
+                </div>
+                <!--  -->
+                <div class="sumary-div my-3">
+                    <div class="reaction flex justify-between bg-orange-200 rounded p-2">
+                        <div class="memory-img flex items-center">
+                            <img src="./assets/images/icon-memory.svg">
+                            <p class="ms-1 text-orange-300">Memory</p>
+                        </div>
+                        <div class="memory-numbers">
+                            <p>92 <span>/100</span></p>
+                        </div>
+                    </div> 
+                </div>
+                <!--  -->
+                <div class="sumary-div my-3">
+                    <div class="verbal flex justify-between bg-teal-100 rounded p-2">
+                        <div class="verbal-img flex items-center justify-around">
+                            <img src="./assets/images/icon-verbal.svg">
+                            <p class="ms-1 text-teal-400">Verbal</p>
+                        </div>
+                        <div class="memory-numbers">
+                            <p>61 <span>/100</span></p>
+                        </div>
+                    </div> 
+                </div>
+                <!--  -->
+                <div class="sumary-div my-3">
+                    <div class="virtual flex justify-between bg-blue-300 rounded p-2">
+                        <div class="virtual-img flex items-center justify-around">
+                            <img src="./assets/images/icon-visual.svg">
+                            <p class="ms-1 text-blue-600">Virtual</p>
+                        </div>
+                        <div class="virtual-numbers">
+                            <p>72 <span>/100</span></p>
+                        </div>
+                    </div> 
+                </div>
+                <button class="inline-block bg-blue-950 text-white w-full text-center rounded-full py-2 hover:bg-blue-600">Continue</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
